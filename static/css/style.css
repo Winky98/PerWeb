@@ -13,7 +13,6 @@ html {
   box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
-
   }
 a{
   color: #000;
@@ -56,10 +55,7 @@ h3,
 h4,
 .h4,
 h5,
-.h5,
-h6,
-.h6 {
-  color: #000;
+.h5 {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 15px;
@@ -119,6 +115,7 @@ h1,
 .h1 {
   font-size: 2.5rem;
   color: #fbfbfb;
+  font-weight: 700;
   letter-spacing: 0.5rem;
   margin-bottom: 30px;
   line-height: 2.5rem;
@@ -129,6 +126,7 @@ h2,
 .h2 {
   font-size: 1.5rem;
   color: #1B1B1B;
+  font-weight: 700;
   letter-spacing: 1rem;
   margin: 20px 0px;
   line-height: 2.5rem;
@@ -195,7 +193,6 @@ li {
   align-items: center;
   text-align: center;
 }
-
 
 .header_bar{
   background-image: url("../images/tu.jpg");
@@ -282,12 +279,6 @@ aside{
   border-right:4px solid #b89a53;overflow:scroll;
   border-bottom:4px solid #b89a53;overflow:scroll;
 }
-.cont_1-b-3{ 
-  width:85%; height:100%; float:left; background-color:#e8e0cd; 
-  border-top:4px solid #b89a53;overflow:scroll;
-  border-right:4px solid #b89a53;overflow:scroll;
-  border-bottom:4px solid #b89a53;overflow:scroll;
-}
 .table_container{
   text-align: center;
   margin-top: 10px;
@@ -369,6 +360,7 @@ aside{
 .indiv{
   width: 32%;
   float: left;
+
 }
 .rowdiv{
   margin-right: -15px;
@@ -695,9 +687,6 @@ aside{
 .footer-info p {
   font-size: 0.8rem;
   color: #BABABA;
-}
-.footer-info p:nth-child(2) {
-  margin: 10px 0px;
 }
 
 
